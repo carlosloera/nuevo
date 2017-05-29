@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @ejemplo.nombre %>
+</p>
+
+<p>
+  <strong>Contenido:</strong>
+  <%= @ejemplo.contenido %>
+</p>
+
+<%= link_to 'Edit', edit_ejemplo_path(@ejemplo) %> |
+<%= link_to 'Back', ejemplos_path %>
